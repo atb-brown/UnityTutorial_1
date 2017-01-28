@@ -1828,8 +1828,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  maxPickUps: 12
   countText: {fileID: 1196379816}
   winText: {fileID: 2057368913}
+  pickUpTags:
+  - Pick Up
+  scaleFactor: 0.1
 --- !u!54 &2142631625
 Rigidbody:
   m_ObjectHideFlags: 0
